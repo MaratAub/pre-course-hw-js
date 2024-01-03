@@ -3,12 +3,12 @@ let rule =
 let ruleLength = rule.length;
 
 switch (ruleLength) {
-  case (ruleLength = 25):
-    console.log("50 на 50");
-    break;
   case ruleLength > 25:
     console.log("У меня 100 пудов все получится");
+
+  case ruleLength < 25:
+    console.log("Все таки нет правил без исключения");
     break;
   default:
-    console.log("Все таки нет правил без исключения");
+    console.log("50 на 50");
 }
