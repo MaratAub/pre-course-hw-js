@@ -3,10 +3,10 @@ let passportWithAddress = {
   surname: "Petrov",
   address: {
     country: "USA",
-    city: "Bobryisk",
+    city: "LA",
   },
 };
 let passport2 = structuredClone(passportWithAddress);
-
+passport2.address.city = "Bobryisk";
 console.log(passportWithAddress);
 console.log(passport2);
