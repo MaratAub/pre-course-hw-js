@@ -11,4 +11,3 @@ const fruits = [
   "персик",
 ];
 let fruitsClone = fruits.slice(1, 7);
-console.log(fruitsClone);
