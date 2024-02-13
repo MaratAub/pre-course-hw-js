@@ -1,0 +1,14 @@
+const fruits = [
+  "яблоко",
+  "банан",
+  "апельсин",
+  "манго",
+  "киви",
+  "ананас",
+  "виноград",
+  "груша",
+  "слива",
+  "персик",
+];
+let fruitsClone = fruits.slice(1, 7);
+console.log(fruitsClone);
